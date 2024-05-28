@@ -73,5 +73,5 @@ Cada um desses projetos oferece uma excelente oportunidade para aplicar e consol
 - [MDN Web Docs - JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ### 6. Como posso estar clonando?:
-- [MDN Web Docs - Passo a Passo]([https://developer.mozilla.org/pt-BR/docs/Web/JavaScript](https://docs.github.com/pt/get-started/exploring-projects-on-github/contributing-to-a-project))
+- [MDN Web Docs - Passo a Passo](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript](https://docs.github.com/pt/get-started/exploring-projects-on-github/contributing-to-a-project))
 
