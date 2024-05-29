@@ -1,8 +1,8 @@
-![Rinha de Algoritmos](/resources/img/Header_2024.png)
+![Holodeck's Desafio4code](/resources/img/Header_2024.png)
 
 <p align="center">
   <a href="https://discord.gg/EgmBDfvBYe">
-      <img src="https://img.shields.io/discord/866378348368625704.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2" alt="Discord">
+      <img src="https://img.shields.io/discord/1217480586273488928.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2" alt="Discord">
   </a>
   <a href="https://github.com/HolodeckCommunity/Desafio4code/stargazers">
       <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/HolodeckCommunity/Desafio4code?logo=apache%20spark&logoColor=gray&labelColor=E6E600&color=D8D800">
