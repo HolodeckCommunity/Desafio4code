@@ -7,9 +7,23 @@
     <title>Lista</title>
 </head>
 <body>
+
+    <div class="container">
+        <h1>Lista de Tarefas</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Adicione uma tarefa">
+            <input type="datetime-local" id="task-datetime">
+        </form>
+        <br>
+        <ul id="task-list">
+            <!-- Lista de tarefas será inserida aqui -->
+        </ul>
+        <div class="buttons">
+            <button id="add-task-btn">Adicionar Tarefa</button>
+            <button id="clear-btn">Limpar Tarefas Concluídas</button>
+        </div>
+    </div>
     
-
-
     <script src="./listas.js"></script>
 </body>
 </html>
