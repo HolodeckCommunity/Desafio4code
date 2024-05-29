@@ -1,3 +1,16 @@
+![Rinha de Algoritmos](/resources/img/Header_2024.png)
+
+<p align="center">
+  <a href="https://discord.gg/xyT6VEh7">
+      <img src="https://img.shields.io/discord/866378348368625704.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2" alt="Discord">
+  </a>
+  <a href="https://github.com/HolodeckCommunity/Desafio4code/stargazers">
+      <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/HolodeckCommunity/Desafio4code?logo=apache%20spark&logoColor=gray&labelColor=E6E600&color=D8D800">
+  </a>
+</p>
+
+<hr>
+
 # Desafio4code
 Desafio HOLODECK: série de projetos práticos para iniciantes e entusiastas de desenvolvimento. Oferece aprendizado interativo com HTML, CSS e uma linguagem como JavaScript ou Python. Participantes desenvolvem quatro aplicações fundamentais para reforçar conhecimentos em interfaces web e lógica de programação.
 
