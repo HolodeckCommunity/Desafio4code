@@ -6,9 +6,16 @@ Neste evento, vamos trazer 4 projetos para a comunidade Holodeck's. Os projetos 
 
 Nesta seção descreveremos os procedimentos para participação e submissão no Desafio4code.
 
-## Como Submeter
+## Como Submeter 
 
 Começar o Desafio4code é fácil, siga os passos abaixo:
+
+- No canto superior direito da página, clique em Criar Fork.
+- Em "Proprietário", selecione o menu suspenso e clique em um proprietário do repositório com fork.
+- Por padrão, os forks são nomeados da mesma forma que os respectivos repositórios pai. Opcionalmente, para distinguir ainda mais o fork, no campo "Nome do repositório", digite um nome.
+- Voê pode estar seguindo essas instruóes tambem https://docs.github.com/pt/get-started/exploring-projects-on-github/contributing-to-a-project
+
+
 
 ### 1. No seu Terminal, clone este repositório com o comando:
    
