@@ -52,6 +52,7 @@ Um modal é uma janela interativa que se sobrepõe ao conteúdo principal de uma
 **Descrição:**
 O jogo da cobrinha é um clássico jogo de computador no qual o jogador comanda uma linha (a "cobra") que cresce em comprimento ao coletar itens, enquanto evita colidir consigo mesma ou com as bordas da tela. Este projeto proporciona uma excelente oportunidade para aprender sobre manipulação de canvas, lógica de jogo e controle de animação.
 
+## Sugustao de tech's voce pode estar usando o que achar melhor.
 **Tecnologias:**
 - **HTML:** Utilização de canvas para renderizar o jogo.
 - **CSS:** Estilização básica do canvas e da página.
