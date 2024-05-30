@@ -8,6 +8,10 @@ Nesta seção descreveremos os procedimentos para participação e submissão no
 
 ## Como Submeter
 
+instruções: https://docs.github.com/pt/get-started/exploring-projects-on-github/contributing-to-a-project
+
+ou
+
 Começar o Desafio4code é fácil, siga os passos abaixo:
 
 ### 1. No seu Terminal, clone este repositório com o comando:
