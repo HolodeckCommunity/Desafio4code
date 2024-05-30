@@ -26,6 +26,7 @@ A calculadora simples é uma aplicação básica que capacita os usuários a rea
 - **HTML:** Estrutura da calculadora com botões para números e operações.
 - **CSS:** Estilização dos botões e layout da calculadora, proporcionando uma interface amigável.
 - **JavaScript:** Implementação da lógica de cálculo e manipulação dos eventos de clique nos botões.
+- - **Mas voce pode usar a linguagem de sua escolha.
 
 **Funcionalidades:**
 - Entrada de números e operações via botões.
@@ -41,6 +42,7 @@ Um modal é uma janela interativa que se sobrepõe ao conteúdo principal de uma
 - **HTML:** Estrutura básica do conteúdo da página e do modal.
 - **CSS:** Estilização do modal para garantir sua distinção em relação ao conteúdo de fundo.
 - **JavaScript:** Controle da exibição do modal através de eventos, como cliques em botões.
+- - **Mas voce pode usar a linguagem de sua escolha.
 
 **Funcionalidades:**
 - Abertura e fechamento do modal por meio de botões.
@@ -52,11 +54,11 @@ Um modal é uma janela interativa que se sobrepõe ao conteúdo principal de uma
 **Descrição:**
 O jogo da cobrinha é um clássico jogo de computador no qual o jogador comanda uma linha (a "cobra") que cresce em comprimento ao coletar itens, enquanto evita colidir consigo mesma ou com as bordas da tela. Este projeto proporciona uma excelente oportunidade para aprender sobre manipulação de canvas, lógica de jogo e controle de animação.
 
-## Sugustao de tech's voce pode estar usando o que achar melhor.
 **Tecnologias:**
 - **HTML:** Utilização de canvas para renderizar o jogo.
 - **CSS:** Estilização básica do canvas e da página.
 - **JavaScript:** Implementação da lógica do jogo, controle de movimento da cobrinha, detecção de colisões e controle da pontuação.
+- - **Mas voce pode usar a linguagem de sua escolha.
 
 **Funcionalidades:**
 - Movimentação da cobrinha utilizando as setas do teclado.
@@ -73,6 +75,7 @@ Uma lista de tarefas (to-do list) é uma aplicação prática que permite aos us
 - **HTML:** Estrutura da lista de tarefas e formulários de entrada.
 - **CSS:** Estilização da lista e dos estados das tarefas (pendente/concluída).
 - **JavaScript:** Implementação da lógica para adicionar, remover e marcar tarefas, além de persistir os dados no armazenamento local.
+- **Mas voce pode usar a linguagem de sua escolha.
 
 **Funcionalidades:**
 - Adição de novas tarefas por meio de um formulário.
