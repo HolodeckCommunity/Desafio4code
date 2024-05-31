@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#openModal {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#openModal:hover {
+    background-color: #0056b3;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#display {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.operator {
+    background-color: #ffc107;
+}
+
+.operator:hover {
+    background-color: #e0a800;
+}
+
+.clear {
+    background-color: #dc3545;
+}
+
+.clear:hover {
+    background-color: #c82333;
+}
+
+.equals {
+    background-color: #28a745;
+}
+
+.equals:hover {
+    background-color: #218838;
+}
+
+/* ______________dark-mode_________________*/
+
+#toggleMode {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 35px 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#modeText {
+    display: inline-block;
+}
+
+#toggleMode:hover {
+    background-color: #0056b3;
+}
+
+.dark-mode #toggleMode {
+    background-color: #555;
+}
+
+.dark-mode #modeIcon {
+    background-color: #000; 
+}
+
+#modeIcon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #fff; 
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode #openModal {
+    background-color: #555;
+}
+
+.dark-mode .modal-content {
+    background-color: #222;
+    border-color: #444;
+}
+
+.dark-mode .close {
+    color: #ccc;
+}
+
+.dark-mode .calculator {
+    background-color: #444;
+}
+
+.dark-mode #display {
+    background-color: #666;
+    color: #fff;
+}
+
+.dark-mode .btn {
+    background-color: #666;
+    color: #fff;
+}
+
+.dark-mode .btn:hover {
+    background-color: #888;
+}
+
+.dark-mode .operator {
+    background-color: #f90;
+}
+
+.dark-mode .operator:hover {
+    background-color: #d78000;
+}
+
+.dark-mode .clear {
+    background-color: #f44336;
+}
+
+.dark-mode .clear:hover {
+    background-color: #d32f2f;
+}
+
+.dark-mode .equals {
+    background-color: #4caf50;
+}
+
+.dark-mode .equals:hover {
+    background-color: #388e3c;
+}
