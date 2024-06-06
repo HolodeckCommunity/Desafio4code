@@ -1,19 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./cobrinha.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" />
+    <link rel="stylesheet" href="cobrinha.css" />
     <title>Jogo da Cobrinha</title>
-</head>
-<body> 
+  </head>
+  <body>
+    <div id="container">
+      <h1 style="text-align: left;">Jogo da Cobrinha</h1>
 
-    <h1>Jogo da Cobrinha</h1>
-    <canvas id="gameCanvas"></canvas>
-    <p id="lives">Vidas: 3</p>
-    <button id="startButton">Iniciar Jogo</button>
-    <button id="restartButton" style="display: none;">Reiniciar Jogo</button>
-    <script src="./cobrinha.js"></script>
-    
-</body>
-</html>
+      <canvas id="gameCanvas"></canvas>
+
+      <div id="info">
+        <div id="time">Tempo: 0</div>
+        <div id="score1">Pontuação Cobra 1: 0</div>
+        <div id="score2" style="display: none">Pontuação Cobra 2: 0</div>
+      </div>
+      <div id="buttons">
+        <div id="gameMode">
+          <button id="soloButton" class="gameModeButton">Solo</button>
+          <button id="battleButton" class="gameModeButton">Batalha</button>
+      </div>
+        <button id="startButton">Iniciar Jogo</button>
+        <button id="restartButton" style="display: none">Reiniciar Jogo</button>
+      </div>
+    </div>
+
+    <script src="cobrinha.js"></script>
+  </body>

@@ -1,36 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    margin: 0;
+    height: 100%;
+    margin: 10px;
     background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
 }
 
 h1 {
     color: #333;
     font-size: 40px;
     font-weight: 700;
+    margin-left: 25px;
+    width:300px;
+    height: 200px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
 }
 
 #gameCanvas {
-    border: 1px solid #000;
-    background-color: #fff;
+    width: 700px;
+    height: 700px; 
+    border: 1px solid black; 
 }
 
-#lives {
-    margin-top: 20px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #333;
+#info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px; /* Margin from game canvas */
 }
+
+#info div {
+    margin-bottom: 5px;
+}
+
 #startButton, #restartButton {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#startButton:hover, #restartButton:hover {
+    background-color: #555;
+}
+
+#gameMode {
+    text-align: center;
+    margin-top: 20px; /* Add margin top */
+}
+
+.gameModeButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.gameModeButton:hover {
+    background-color: #555;
 }
